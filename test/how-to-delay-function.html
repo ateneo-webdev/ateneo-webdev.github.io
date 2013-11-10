@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>how-to-delay-function</title>
+  <style>
+    div { margin:3px; width:80px; display:none;
+      height:80px; float:left; }
+      div#one { background:#f00; }
+    </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+	<script>
+      /*$(document.body).click(function () {*/
+        $("div:hidden:first").fadeIn(1000);
+      /*});*/
+    </script>
+</body>
+</html>

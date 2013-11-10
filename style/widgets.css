@@ -1,0 +1,95 @@
+.widget01 {
+	padding-top: 20px;	
+	float: right;
+	padding-right: 5px;
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.widget01 a{
+	border: none;
+	background-color: #666;
+	color: #FFFFFF;
+	padding: 3px 10px;
+	cursor: pointer;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 4px; 
+	text-decoration: none;
+}
+.widget01 a:hover{
+	opacity: .75;
+}
+.widget01 a:active{
+	opacity: .90;
+}
+
+
+.widget02 {
+	padding-top: 20px;	
+	float: right;
+	padding-right: 5px;
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.widget02 a{
+	border: none;
+	background-color: #007cff;
+	color: #FFFFFF;
+	padding: 3px 10px;
+	cursor: pointer;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 4px; 
+	text-decoration: none;
+}
+.widget02 a:hover{
+	opacity: .75;
+}
+.widget02 a:active{
+	opacity: .90;
+}
+.widget03 {
+	padding-top: 20px;	
+	float: right;
+	padding-right: 5px;
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.widget03 a{
+	border: none;
+	background-color: #41cf1b;
+	color: #FFFFFF;
+	padding: 3px 10px;
+	cursor: pointer;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 4px; 
+	text-decoration: none;
+}
+.widget03 a:hover{
+	opacity: .75;
+}
+.widget03 a:active{
+	opacity: .90;
+}
+.widgetad {
+	padding-top: 10px;	
+	float: right;
+	padding-right: 10px;
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.widgetad a{
+	border: none;
+	background-color: #CCC;
+	color: #FFFFFF;
+	padding: 5px 5px;
+	cursor: pointer;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 0px; 
+	text-decoration: none;
+	float: right;
+	width: 250px;
+	height: 205px;
+}

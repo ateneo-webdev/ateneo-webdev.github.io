@@ -1,0 +1,178 @@
+#slideshow {  
+	position:relative;
+	width: 570px;
+	height: 230px;
+	padding-bottom: 10px;
+}
+
+#slideshow A {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+	opacity:0.0;
+	text-decoration: none;
+}
+
+#slideshow A.active {
+	z-index:10;
+	opacity:1.0;
+}
+
+#slideshow A.last-active {
+	z-index:9;
+}
+
+#wrapper_blog {
+	background-color: #FFFFFF;
+	width: 900px;
+	height: 1590px;
+	padding-top: 2px;
+	text-align: justify;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px; 
+	-moz-box-shadow: 0px 0px 2px #c0c0c0; 
+	-webkit-box-shadow: 0px 0px 2px #c0c0c0; 
+	box-shadow: 0px 0px 2px #c0c0c0;
+}
+#wrapper3 {
+	width: 825px;
+}
+
+#head {
+	width: 400px;
+	text-align: justify;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	font-size: 12px;
+	float: left;
+	height: 25px;
+}
+#entry_featured {
+	padding-left: 15px;
+	padding-bottom: 0px;
+	height: 270px;
+	width: 580px;
+	float: left;
+}
+#entry_right{
+	width: 290px;
+	height: 239px;
+	padding-left: 0px;
+	float: left;
+	font-size: 10px;
+}
+.entry_right {
+
+}
+#er01 {
+	height: 90px;
+	background-color:#069;
+
+}
+#er02 {
+	height: 90px;
+	background-color:#993;
+}
+#er03 {
+	height: 90px;
+	background-color:#CC3;
+}
+
+#entry_blog {
+	width: 566px;
+	text-align: justify;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	font-size: 12px;
+	float: left;
+}
+
+#moreorless {
+	width: 570px;
+	text-align: justify;
+	padding-bottom: 10px;
+	font-size: 17px;
+	float: left;
+	padding-top: 10px;
+	color: #f58a0c;
+	padding-left: 12px;
+}
+.more {
+	background-color: #e1e1e1;
+	padding: 8px;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px;
+	cursor: pointer;
+}
+.less {
+	background-color: #e1e1e1;
+	padding: 8px;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+.breaker {
+	border-bottom-color:#E5E5E5;
+	border-bottom: dotted;
+	border-bottom-width: 2px;
+	padding-top: 50px;
+}
+.title {
+	height: 15px;
+}
+.title a {
+	text-decoration: none;
+	color: #333333;
+}
+.title a:hover {
+	opacity: .75;
+}
+.title a:active {
+	opacity: .90;
+}
+
+.date {
+	font-size: 11px;
+	padding-top: 2px;
+	padding-left: 3px;
+	font-family: Tahoma;
+}
+#entry_sub {
+	width: 566px;
+	padding-top: 2px;
+}
+.entry_blog {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	width: 335px;
+	float: right;
+}
+.entry_picture {
+	padding-top: 10px;
+	width: 220px;
+	height: 100px;
+}
+.author {
+	padding-top: 15px;	
+	padding-left: 7px;
+	font-weight: bold;
+	font-size: 12px;
+	color:#999;
+	font-family: Tahoma;
+	float: left;
+}
+.author_pic {
+	padding-top: 5px;
+	float: left;
+}
+#hide1 {
+	display: none;
+}
+

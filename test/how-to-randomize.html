@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>how-to-randomize</title>
+ <SCRIPT language="JavaScript">
+<!--
+function get_random()
+{
+    var ranNum= Math.floor(Math.random()*5);
+    return ranNum;
+}
+
+function getaQuote()
+{
+   var whichQuote=get_random();
+
+    var quote=new Array(5)
+     quote[0]="I love JavaScript..sometimes.";
+     quote[1]="Why are you pushing my button?";
+     quote[2]="The button you pushed can\'t push you back. You bully, you!";   
+     quote[3]="This alert is here to inform you that alerts are annoying.";
+     quote[4]="Which came first, the button or the alert?";
+  
+   alert(quote[whichQuote]);
+  }
+//-->
+</SCRIPT>
+</head>
+<body>
+<FORM name="form1">
+<INPUT TYPE="button" value="Get a Quote!" onClick="getaQuote()">
+</FORM> 
+</body>
+</html>

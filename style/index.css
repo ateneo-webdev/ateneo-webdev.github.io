@@ -1,0 +1,120 @@
+#slideshow_container {
+	padding-bottom: 10px;
+	width: 900px;
+	height: 400px;
+}
+#slideshow {  
+	position: relative;
+	float: left;
+	width: 900px;
+	height: 400px;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px; 
+	-moz-box-shadow: 0px 0px 2px #c0c0c0; 
+	-webkit-box-shadow: 0px 0px 2px #c0c0c0; 
+	box-shadow: 0px 0px 2px #c0c0c0;
+	overflow: hidden;
+}
+#slideshow IMG {
+	width: 900px;
+	margin-left: -2px;
+}
+#slideshow A {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+	opacity:0.0;
+	text-decoration: none;
+	padding-left: 2px;
+}
+#slideshow A.active {
+	z-index:10;
+	opacity:1.0;
+}
+#slideshow A.last-active {
+	z-index:9;
+}
+#featured {
+	width: 900px;
+	height: 100px;
+	float: left;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-top: 4px;
+}
+#featured01 {
+	width: 290px;
+	height: 100px;
+	float: left;
+	padding-right: 15px;
+}
+#featured02 {
+	width: 290px;
+	height: 100px;
+	float: left;
+	padding-right: 15px;
+}
+#featured03 {
+	width: 290px;
+	height: 100px;
+	float: left;
+}
+.featured01 {
+	width: 290px;
+	height: 100px;
+	float: left;
+	background-color:#9F0;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px; 
+	-moz-box-shadow: 0px 0px 2px #c0c0c0; 
+	-webkit-box-shadow: 0px 0px 2px #c0c0c0; 
+	box-shadow: 0px 0px 2px #c0c0c0;
+	overflow: hidden;
+
+}
+.featured02 {
+	width: 290px;
+	height: 100px;
+	background-color: #C69;
+	float: left;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px; 
+	-moz-box-shadow: 0px 0px 2px #c0c0c0; 
+	-webkit-box-shadow: 0px 0px 2px #c0c0c0; 
+	box-shadow: 0px 0px 2px #c0c0c0;
+	overflow: hidden;
+}
+.featured03 {
+	width: 290px;
+	height: 100px;
+	background-color:#9F0;
+	float: left;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	border-radius: 5px; 
+	-moz-box-shadow: 0px 0px 2px #c0c0c0; 
+	-webkit-box-shadow: 0px 0px 2px #c0c0c0; 
+	box-shadow: 0px 0px 2px #c0c0c0;
+	overflow: hidden;
+}
+#wrapper2 {
+	background-color: #FFFFFF;
+	width: 705px;
+	height: auto;
+	padding-top: -10px;
+	text-align: justify;
+}
+#entry {
+	width: 400px;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	font-size: 12px; 
+}
+
+
